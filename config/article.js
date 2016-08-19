@@ -9,28 +9,27 @@ export default _ => ({ // eslint-disable-line
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date(),
+  publishedDate: new Date('2016-08-20'),
 
-  headline: 'Politics and the English Language',
+  headline: 'Philip Hammond: The documents',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Political language is designed to make lies sound truthful' +
-           'and murder respectable, and to give an appearance of solidity to pure wind',
+  summary: 'The documents that show the  Chancellor\'s early business dealings ',
 
   topic: {
-    name: 'Starter Kit',
-    url: '/foo',
+    name: 'UK Politics & Policy',
+    url: 'https://www.ft.com/world/uk/politics',
   },
 
   relatedArticle: {
     text: 'Related article »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+    url: 'https://www.ft.com/content/ecc02856-5e56-11e6-a72a-bd4bf1198c63',
   },
 
   mainImage: {
-    title: '',
-    description: '',
-    url: '',
+    title: 'Philip Hammond',
+    description: 'Philip Hammond leaflet from 1994',
+    url: 'https://image.webservices.ft.com/v1/images/raw/ftcms:4cbc475a-662a-11e6-8310-ecf0bddad227?source=ig',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -38,12 +37,12 @@ export default _ => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Author One', url: '/foo/bar' },
-    { name: 'Author Two' },
+    { name: 'Leila Haddou', url: 'https://www.ft.com/search?q=Leila+Haddou' },
+    { name: 'Kate Allen', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAxNzEwMQ==-QXV0aG9ycw==' },
   ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'Philip Hammond documents',
 
   // meta data
   description: '',
@@ -62,7 +61,7 @@ export default _ => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  // socialImage: '',
+ socialImage: 'https://image.webservices.ft.com/v1/images/raw/ftcms:4cbc475a-662a-11e6-8310-ecf0bddad227?source=ig',
   // socialHeadline: '',
   // socialSummary:  '',
 
@@ -79,13 +78,13 @@ export default _ => ({ // eslint-disable-line
   onwardjourney: {
 
     // list (methode list) or topic
-    type: '',
+    type: 'topic',
 
     // topic or list id
-    id: '',
+    id: 'TnN0ZWluX1BOX1BvbGl0aWNpYW5fNDA1-UE4=',
 
     // a heading is provided automatically if not set (peferred)
-    heading: '',
+    heading: 'Philip Hammond',
   },
 
   tracking: {
