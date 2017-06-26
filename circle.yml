@@ -10,9 +10,11 @@ dependencies:
   override:
     - npm install
 
-test:
-  pre:
-    - npm run preflight
+## Disabling preflight due to issue with missing Selenium
+## To reinstate, see ft-interactive/starter-kit#110
+#test:
+#  pre:
+#    - npm run preflight
 
 deployment:
   s3: # this is just a custom name, could be anything
