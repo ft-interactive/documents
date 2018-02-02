@@ -1,35 +1,35 @@
 export default _ => ({ // eslint-disable-line
 
   // link file UUID
-  id: '5603b318-6614-11e6-8310-ecf0bddad227',
+  id: '04715cce-0840-11e8-9650-9c0ad2d7c5b5',
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/documents/philip-hammond get filled in by the ./configure script
-  url: 'https://ig.ft.com/documents/philip-hammond',
+  url: 'https://ig.ft.com/documents/gop-memo',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
-  publishedDate: new Date('2016-08-22T09:00:00Z'),
+  publishedDate: new Date(),
 
-  headline: 'Philip Hammond: The documents',
+  headline: 'Read the previously classified Devin Nunes memo',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'The documents that show the  Chancellor\'s early business dealings ',
+  summary: 'House Republicans release previously classified memo which alleges FBI surveillance abuses against Donald Trump’s campaign during the 2016 election',
 
   topic: {
-    name: 'UK Politics & Policy',
-    url: 'https://www.ft.com/world/uk/politics',
+    name: 'Trump Russia ties',
+    url: 'https://www.ft.com/trump-russia-ties',
   },
 
   relatedArticle: {
     text: 'Related article »',
-    url: 'https://www.ft.com/content/ecc02856-5e56-11e6-a72a-bd4bf1198c63',
+    url: 'https://www.ft.com/content/53357b54-077a-11e8-9650-9c0ad2d7c5b5',
   },
 
   mainImage: {
-    title: 'Philip Hammond',
-    description: 'Philip Hammond leaflet from 1994',
-    url: 'https://image.webservices.ft.com/v1/images/raw/ftcms:4cbc475a-662a-11e6-8310-ecf0bddad227?source=ig',
+    title: 'Senator John Thune',
+    description: 'Senator John Thune says the White House needs to weigh \'important national security considerations\' in deciding whether to publicly release the document © AP',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F9a72eefe-077d-11e8-9e12-af73e8db3c71?source=igt&fit=scale-down&width=2048',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -37,12 +37,11 @@ export default _ => ({ // eslint-disable-line
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
   byline: [
-    { name: 'Leila Haddou', url: 'https://www.ft.com/search?q=Leila+Haddou' },
-    { name: 'Kate Allen', url: 'https://www.ft.com/stream/authorsId/Q0ItMDAxNzEwMQ==-QXV0aG9ycw==' },
+    { name: 'FT reporters', url: '' },
   ],
 
   // Appears in the HTML <title>
-  title: 'Philip Hammond documents',
+  title: 'Read the previously classified Devin Nunes memo',
 
   // meta data
   description: '',
@@ -61,7 +60,7 @@ export default _ => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
- socialImage: 'https://image.webservices.ft.com/v1/images/raw/ftcms:4cbc475a-662a-11e6-8310-ecf0bddad227?source=ig',
+ socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F9a72eefe-077d-11e8-9e12-af73e8db3c71?source=igt&fit=scale-down&width=2048',
   // socialHeadline: '',
   // socialSummary:  '',
 
@@ -75,17 +74,17 @@ export default _ => ({ // eslint-disable-line
   // facebookImage: '',
   // facebookHeadline: '',
 
-  onwardjourney: {
-
-    // list (methode list) or topic
-    type: 'topic',
-
-    // topic or list id
-    id: 'TnN0ZWluX1BOX1BvbGl0aWNpYW5fNDA1-UE4=',
-
-    // a heading is provided automatically if not set (peferred)
-    heading: 'Philip Hammond',
-  },
+  // onwardjourney: {
+  //
+  //   // list (methode list) or topic
+  //   type: 'topic',
+  //
+  //   // topic or list id
+  //   id: 'TnN0ZWluX1BOX1BvbGl0aWNpYW5fNDA1-UE4=',
+  //
+  //   // a heading is provided automatically if not set (peferred)
+  //   heading: 'Philip Hammond',
+  // },
 
   tracking: {
 
