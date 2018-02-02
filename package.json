@@ -61,13 +61,14 @@
     "figures": "^1.7.0",
     "input": "^1.0.1",
     "minimist": "^1.2.0",
+    "nightwatch": "^0.9.5",
+    "node-git": "0.0.0",
     "nodegit": "^0.14.1",
     "ora": "^0.2.3",
     "parse-github-url": "^0.3.1",
-    "s3": "^4.4.0",
     "phantomjs-prebuilt": "^2.1.7",
-    "selenium-standalone": "^5.5.0",
-    "nightwatch": "^0.9.5"
+    "s3": "^4.4.0",
+    "selenium-standalone": "^5.5.0"
   },
   "private": true,
   "scripts": {
