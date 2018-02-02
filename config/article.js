@@ -27,9 +27,9 @@ export default _ => ({ // eslint-disable-line
   },
 
   mainImage: {
-    title: 'Senator John Thune',
-    description: 'Senator John Thune says the White House needs to weigh \'important national security considerations\' in deciding whether to publicly release the document © AP',
-    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F9a72eefe-077d-11e8-9e12-af73e8db3c71?source=igt&fit=scale-down&width=2048',
+    title: '',
+    description: '',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ac959bdaa-0634-11e8-9e12-af73e8db3c71?source=ig&width=2048',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -60,7 +60,7 @@ export default _ => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
- socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F9a72eefe-077d-11e8-9e12-af73e8db3c71?source=igt&fit=scale-down&width=2048',
+ socialImage: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa4154ae8-0844-11e8-9650-9c0ad2d7c5b5?source=ig&width=2048',
   // socialHeadline: '',
   // socialSummary:  '',
 
