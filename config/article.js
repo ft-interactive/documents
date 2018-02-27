@@ -1,35 +1,35 @@
 export default _ => ({ // eslint-disable-line
 
   // link file UUID
-  id: '04715cce-0840-11e8-9650-9c0ad2d7c5b5',
+  id: 'b1eaef98-1c0c-11e8-aaca-4574d7dabfb6',
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/documents/philip-hammond get filled in by the ./configure script
-  url: 'https://ig.ft.com/documents/gop-memo',
+  url: 'https://ig.ft.com/documents/broadcom-qualcomm-cornyn-letter/',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Read the previously classified Devin Nunes memo',
+  headline: 'Senator John Cornyn\'s letter to Treasury Secretary Steven Mnuchin on Broadcom-Qualcomm deal',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'House Republicans release previously classified memo which alleges FBI surveillance abuses against Donald Trump’s campaign during the 2016 election',
+  summary: 'Second-ranking Republican in the Senate raises concerns ahead of March 6 shareholder vote at Qualcomm',
 
   topic: {
-    name: 'Trump Russia ties',
-    url: 'https://www.ft.com/trump-russia-ties',
+    name: 'Mergers & Acquisitions',
+    url: 'https://www.ft.com/stream/9d13b836-df76-4445-b599-10ae378680f0',
   },
 
   relatedArticle: {
     text: 'Related article »',
-    url: 'https://www.ft.com/content/53357b54-077a-11e8-9650-9c0ad2d7c5b5',
+    url: 'https://www.ft.com/content/a68fc22e-1be2-11e8-956a-43db76e69936',
   },
 
   mainImage: {
     title: '',
     description: '',
-    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ac959bdaa-0634-11e8-9e12-af73e8db3c71?source=ig&width=2048',
+    // url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ac959bdaa-0634-11e8-9e12-af73e8db3c71?source=ig&width=2048',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -41,7 +41,7 @@ export default _ => ({ // eslint-disable-line
   ],
 
   // Appears in the HTML <title>
-  title: 'Read the previously classified Devin Nunes memo',
+  title: 'Senator John Cornyn\'s letter to Treasury Secretary Steven Mnuchin on Broadcom-Qualcomm deal',
 
   // meta data
   description: '',
