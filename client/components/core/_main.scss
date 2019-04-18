@@ -3,7 +3,7 @@ $font-serif: Georgia, serif;
 $font-display: FinancierDisplayWeb, Georgia, serif;
 
 body {
-  @include oColorsFor(page, background);
+  background-color: #fff1e5;
   margin: 0;
   border: 0;
   font-family: $font-sans;
@@ -30,13 +30,10 @@ body {
 
 /* Hide whatsapp share button on desktop */
 .article__share {
-  @include oGridRespondTo(S) {
-    .o-share__action--whatsapp {
-      display: none;
-    }
+  .o-share__action--whatsapp {
+    display: none;
   }
 }
-
 
 .graphic {
   display: block;
@@ -60,5 +57,4 @@ body {
   &-b-1 {
     max-width: 700px;
   }
-
 }

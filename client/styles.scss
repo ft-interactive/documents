@@ -1,12 +1,11 @@
-@import 'o-colors/main';
-@import 'o-grid/main';
+// @import 'o-colors/main';
 @import 'components/core/main';
 
 .article-body > .document {
-	width:100%;
-	max-width:600px;
-	border:0;
-	margin:10px auto;
-	padding:0 20px;
-	box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  border: 0;
+  margin: 10px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
