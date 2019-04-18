@@ -80,7 +80,7 @@ export default _ => ({
     type: 'topic',
 
     // topic or list id
-    id: 'TnN0ZWluX1BOX1BvbGl0aWNpYW5fNDA1-UE4=',
+    id: '8f79aca9-e380-483e-82a6-8207c736472c',
 
     // a heading is provided automatically if not set (peferred)
     heading: 'Trump Russia ties',
