@@ -6,31 +6,31 @@ export default _ => ({
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/documents/philip-hammond get filled in by the ./configure script
-  url: 'https://ig.ft.com/documents/russia-indictment-mueller-probe/',
+  url: 'https://ig.ft.com/documents/mueller-report/',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'Read the complete, searchable Mueller report',
+  headline: 'Mueller report: Read the complete, searchable report',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'The redacted 448-page report, as distributed by the US Justice department',
 
   topic: {
     name: 'Trump Russia ties',
-    url: 'https://www.ft.com/mueller-report',
+    url: 'https://www.ft.com/trump-russia-ties',
   },
 
   relatedArticle: {
     text: 'Related article »',
-    url: 'https://www.ft.com/content/21f8a01a-1347-11e8-8cb6-b9ccc4c4dbbb',
+    url: 'https://www.ft.com/content/0cbf2628-61d5-11e9-a27a-fdd51850994c',
   },
 
   mainImage: {
     title: '',
     description: '',
-    // url: 'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Ac959bdaa-0634-11e8-9e12-af73e8db3c71?source=ig&width=2048',
+    url: 'http://ft-ig-images-prod.s3-website-eu-west-1.amazonaws.com/v1/8444391428-t8bph.jpg',
     width: 2048, // ensure correct width
     height: 1152, // ensure correct height
   },
@@ -42,7 +42,7 @@ export default _ => ({
   // ],
 
   // Appears in the HTML <title>
-  title: 'Read the complete, searchable Mueller report',
+  title: 'Mueller report: Read the complete, searchable report',
 
   // meta data
   description: '',
@@ -61,7 +61,7 @@ export default _ => ({
   */
   // General social
   socialImage:
-    'https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3Aa4154ae8-0844-11e8-9650-9c0ad2d7c5b5?source=ig&width=2048',
+    'http://ft-ig-images-prod.s3-website-eu-west-1.amazonaws.com/v1/8444391428-t8bph.jpg',
   // socialHeadline: '',
   // socialSummary:  '',
 
@@ -75,17 +75,16 @@ export default _ => ({
   // facebookImage: '',
   // facebookHeadline: '',
 
-  // onwardjourney: {
-  //
-  //   // list (methode list) or topic
-  //   type: 'topic',
-  //
-  //   // topic or list id
-  //   id: 'TnN0ZWluX1BOX1BvbGl0aWNpYW5fNDA1-UE4=',
-  //
-  //   // a heading is provided automatically if not set (peferred)
-  //   heading: 'Philip Hammond',
-  // },
+  onwardjourney: {
+    // list (methode list) or topic
+    type: 'topic',
+
+    // topic or list id
+    id: 'TnN0ZWluX1BOX1BvbGl0aWNpYW5fNDA1-UE4=',
+
+    // a heading is provided automatically if not set (peferred)
+    heading: 'Trump Russia ties',
+  },
 
   tracking: {
     /*
