@@ -2,7 +2,7 @@ export default _ => ({
   // eslint-disable-line
 
   // link file UUID
-  id: '6db4dce0-1350-11e8-8cb6-b9ccc4c4dbbb',
+  id: '556b88ea-61ed-11e9-b285-3acd5d43599e',
 
   // canonical URL of the published page
   // https://ig.ft.com/sites/documents/philip-hammond get filled in by the ./configure script
