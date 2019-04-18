@@ -27,13 +27,7 @@ export default _ => ({
     url: 'https://www.ft.com/content/0cbf2628-61d5-11e9-a27a-fdd51850994c',
   },
 
-  mainImage: {
-    title: '',
-    description: '',
-    url: 'http://ft-ig-images-prod.s3-website-eu-west-1.amazonaws.com/v1/8444391428-t8bph.jpg',
-    width: 2048, // ensure correct width
-    height: 1152, // ensure correct height
-  },
+  mainImage: 'false',
 
   // Byline can by a plain string, markdown, or array of authors
   // if array of authors, url is optional
