@@ -61,7 +61,7 @@ export default _ => ({
   */
   // General social
   socialImage:
-    'http://ft-ig-images-prod.s3-website-eu-west-1.amazonaws.com/v1/8444391428-t8bph.jpg',
+    'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-us.s3.amazonaws.com%2Fb31f43f6-61f1-11e9-a27a-fdd51850994c?source=ig',
   // socialHeadline: '',
   // socialSummary:  '',
 
